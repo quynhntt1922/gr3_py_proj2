@@ -1,9 +1,7 @@
 import streamlit as st
-import io
 
 import pandas as pd
 import numpy as np
-# import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as path_effects
 import seaborn as sns
