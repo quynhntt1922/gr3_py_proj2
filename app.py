@@ -273,13 +273,11 @@ st.pyplot()
 ### Analysis of calorie content
 '''
 
-with st.echo():
-        sns.boxplot(x='restaurant', y='calories', data=df)
-        plt.xticks(rotation='vertical')
-        plt.xlabel('Restaurant')
-        plt.ylabel('Calories')
-        plt.title('Fastfood Calorie Box Plot')
-
+sns.boxplot(x='restaurant', y='calories', data=df)
+plt.xticks(rotation='vertical')
+plt.xlabel('Restaurant')
+plt.ylabel('Calories')
+plt.title('Fastfood Calorie Box Plot')
 st.pyplot()
 
 '''
@@ -288,6 +286,7 @@ st.pyplot()
 
 with st.echo():
         df['calories'].describe()
+st.write(df['calories'].describe())
 
 sns.histplot(x='calories', data=df, kde=True)
 #kde=True: compute a kernel density estimate to smooth the distribution
