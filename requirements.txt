@@ -1,5 +1,6 @@
 streamlit
 streamlit_space
+plotly
 pandas
 numpy
 matplotlib
