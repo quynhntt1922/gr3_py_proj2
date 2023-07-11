@@ -6,7 +6,7 @@ import numpy as np
 import datetime
 
 import plotly.express as px
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
  
 st.set_option('deprecation.showPyplotGlobalUse', False)
